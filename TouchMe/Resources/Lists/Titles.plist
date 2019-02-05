@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Titles</key>
+	<array>
+		<string>Touch me</string>
+		<string>Touch me one more time</string>
+		<string>Can you repeat, please?</string>
+		<string>Yes, go on</string>
+		<string>I like it!</string>
+		<string>Just do it</string>
+		<string>Again</string>
+		<string>And again</string>
+		<string>It&apos;s so fun</string>
+		<string>Okay, now go outdoor</string>
+		<string>Really, stop do it</string>
+		<string>Just phone your friends</string>
+		<string>And make some fun</string>
+		<string>Without me</string>
+		<string>Stop</string>
+		<string>Come on</string>
+		<string>Go away!</string>
+		<string>Do you really like do it?</string>
+		<string>Okay</string>
+		<string>Whatever</string>
+		<string>Let&apos;s start again</string>
+	</array>
+</dict>
+</plist>

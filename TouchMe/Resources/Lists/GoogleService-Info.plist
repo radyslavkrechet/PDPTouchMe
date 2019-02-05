@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>883593626779-tsh3onh7n4htrtem9bfdu3g78e6ku1mj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.883593626779-tsh3onh7n4htrtem9bfdu3g78e6ku1mj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDqD8wh0C6PUCOY96jwIwoz6cgQ1MuKAfk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>883593626779</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.rubygarage.TouchMe</string>
+	<key>PROJECT_ID</key>
+	<string>touchme-8f8ab</string>
+	<key>STORAGE_BUCKET</key>
+	<string>touchme-8f8ab.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:883593626779:ios:b49f77b6f168c081</string>
+	<key>DATABASE_URL</key>
+	<string>https://touchme-8f8ab.firebaseio.com</string>
+</dict>
+</plist>

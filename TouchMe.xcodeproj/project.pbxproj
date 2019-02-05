@@ -1,0 +1,1070 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B18DF6F1ED8663200F04F56 /* TouchMeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B18DF6D1ED8663200F04F56 /* TouchMeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B18DF721ED8663200F04F56 /* TouchMeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B18DF6B1ED8663200F04F56 /* TouchMeKit.framework */; };
+		0B18DF731ED8663200F04F56 /* TouchMeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B18DF6B1ED8663200F04F56 /* TouchMeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0B8D65AF2208E6440031C690 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65A92208E6440031C690 /* TodayViewController.swift */; };
+		0B8D65B02208E6440031C690 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D65AC2208E6440031C690 /* MainInterface.storyboard */; };
+		0B8D65BE2208E9590031C690 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65B42208E9590031C690 /* Constants.swift */; };
+		0B8D65BF2208E9590031C690 /* LeaderboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65B62208E9590031C690 /* LeaderboardManager.swift */; };
+		0B8D65C02208E9590031C690 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65B72208E9590031C690 /* DatabaseManager.swift */; };
+		0B8D65C12208E9590031C690 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65B92208E9590031C690 /* NetworkService.swift */; };
+		0B8D65C22208E9590031C690 /* SchemeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65BA2208E9590031C690 /* SchemeService.swift */; };
+		0B8D65C32208E9590031C690 /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65BB2208E9590031C690 /* SessionService.swift */; };
+		0B8D65C42208E9590031C690 /* Gamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65BD2208E9590031C690 /* Gamer.swift */; };
+		0B8D65D02208EA280031C690 /* Entry.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D65C72208EA280031C690 /* Entry.storyboard */; };
+		0B8D65D12208EA280031C690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D65C82208EA280031C690 /* LaunchScreen.storyboard */; };
+		0B8D65D22208EA280031C690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D65C92208EA280031C690 /* Main.storyboard */; };
+		0B8D65D32208EA280031C690 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D65CB2208EA280031C690 /* GoogleService-Info.plist */; };
+		0B8D65D42208EA280031C690 /* Titles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D65CC2208EA280031C690 /* Titles.plist */; };
+		0B8D65D62208EA280031C690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D65CF2208EA280031C690 /* Assets.xcassets */; };
+		0B8D65F12208EB760031C690 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65DA2208EB760031C690 /* TabBarController.swift */; };
+		0B8D65F22208EB760031C690 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65DC2208EB760031C690 /* Constants.swift */; };
+		0B8D65F32208EB760031C690 /* ShortcutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65DE2208EB760031C690 /* ShortcutService.swift */; };
+		0B8D65F42208EB760031C690 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65DF2208EB760031C690 /* AlertService.swift */; };
+		0B8D65F52208EB760031C690 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65E02208EB760031C690 /* AuthenticationService.swift */; };
+		0B8D65F62208EB760031C690 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65E12208EB760031C690 /* FirebaseService.swift */; };
+		0B8D65F72208EB760031C690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65E22208EB760031C690 /* AppDelegate.swift */; };
+		0B8D65F82208EB760031C690 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65E52208EB760031C690 /* ViewController.swift */; };
+		0B8D65F92208EB760031C690 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65E62208EB760031C690 /* EntryViewController.swift */; };
+		0B8D65FA2208EB760031C690 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65E72208EB760031C690 /* AccountViewController.swift */; };
+		0B8D65FB2208EB760031C690 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65E92208EB760031C690 /* LeaderboardViewController.swift */; };
+		0B8D65FC2208EB760031C690 /* TouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65EA2208EB760031C690 /* TouchViewController.swift */; };
+		0B8D65FD2208EB760031C690 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65EB2208EB760031C690 /* ProfileViewController.swift */; };
+		0B8D65FE2208EB760031C690 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65ED2208EB760031C690 /* ActivityView.swift */; };
+		0B8D65FF2208EB760031C690 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65EF2208EB760031C690 /* KeychainPasswordItem.swift */; };
+		0B8D66002208EB760031C690 /* UIKit+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D65F02208EB760031C690 /* UIKit+Hero.swift */; };
+		0BE1A5CA1ED87DEE000657C3 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE1A5C91ED87DEE000657C3 /* NotificationCenter.framework */; };
+		0BE1A5D41ED87DEE000657C3 /* TouchMe Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0BE1A5C81ED87DEE000657C3 /* TouchMe Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0BE1A5D91ED87E43000657C3 /* TouchMeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B18DF6B1ED8663200F04F56 /* TouchMeKit.framework */; };
+		5924EBC4893093AC47938FE5 /* Pods_TouchMeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53141FF0820085C6D681906 /* Pods_TouchMeKit.framework */; };
+		9F77D24829FBF22A127B719A /* Pods_TouchMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FAB2411989C077C62B27B8 /* Pods_TouchMe.framework */; };
+		B989861EB46F5F9BF0271CBF /* Pods_TouchMe_Widget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D24C767EE8AFFE5B27B692 /* Pods_TouchMe_Widget.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B18DF701ED8663200F04F56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B7E345F1ED31C1000E5AE59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B18DF6A1ED8663200F04F56;
+			remoteInfo = TouchMeKit;
+		};
+		0BB2C78F1ED8899B003708CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B7E345F1ED31C1000E5AE59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B18DF6A1ED8663200F04F56;
+			remoteInfo = TouchMeKit;
+		};
+		0BE1A5D21ED87DEE000657C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B7E345F1ED31C1000E5AE59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BE1A5C71ED87DEE000657C3;
+			remoteInfo = "TouchMe Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B18DF771ED8663200F04F56 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0B18DF731ED8663200F04F56 /* TouchMeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE1A5D81ED87DEE000657C3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0BE1A5D41ED87DEE000657C3 /* TouchMe Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B18DF6B1ED8663200F04F56 /* TouchMeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TouchMeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B18DF6D1ED8663200F04F56 /* TouchMeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchMeKit.h; sourceTree = "<group>"; };
+		0B18DF6E1ED8663200F04F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B7E34671ED31C1000E5AE59 /* TouchMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B8D65A92208E6440031C690 /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		0B8D65AC2208E6440031C690 /* MainInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		0B8D65AE2208E6440031C690 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B8D65B42208E9590031C690 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0B8D65B62208E9590031C690 /* LeaderboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardManager.swift; sourceTree = "<group>"; };
+		0B8D65B72208E9590031C690 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		0B8D65B92208E9590031C690 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		0B8D65BA2208E9590031C690 /* SchemeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemeService.swift; sourceTree = "<group>"; };
+		0B8D65BB2208E9590031C690 /* SessionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		0B8D65BD2208E9590031C690 /* Gamer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gamer.swift; sourceTree = "<group>"; };
+		0B8D65C72208EA280031C690 /* Entry.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Entry.storyboard; sourceTree = "<group>"; };
+		0B8D65C82208EA280031C690 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B8D65C92208EA280031C690 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0B8D65CB2208EA280031C690 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0B8D65CC2208EA280031C690 /* Titles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Titles.plist; sourceTree = "<group>"; };
+		0B8D65CD2208EA280031C690 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B8D65CF2208EA280031C690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B8D65DA2208EB760031C690 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0B8D65DC2208EB760031C690 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0B8D65DE2208EB760031C690 /* ShortcutService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortcutService.swift; sourceTree = "<group>"; };
+		0B8D65DF2208EB760031C690 /* AlertService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		0B8D65E02208EB760031C690 /* AuthenticationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		0B8D65E12208EB760031C690 /* FirebaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		0B8D65E22208EB760031C690 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B8D65E52208EB760031C690 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B8D65E62208EB760031C690 /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		0B8D65E72208EB760031C690 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		0B8D65E92208EB760031C690 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		0B8D65EA2208EB760031C690 /* TouchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchViewController.swift; sourceTree = "<group>"; };
+		0B8D65EB2208EB760031C690 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0B8D65ED2208EB760031C690 /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		0B8D65EF2208EB760031C690 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
+		0B8D65F02208EB760031C690 /* UIKit+Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Hero.swift"; sourceTree = "<group>"; };
+		0BB2C7911ED89383003708CA /* TouchMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TouchMe.entitlements; sourceTree = "<group>"; };
+		0BB2C7921ED89647003708CA /* TouchMe Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TouchMe Widget.entitlements"; sourceTree = "<group>"; };
+		0BE1A5C81ED87DEE000657C3 /* TouchMe Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TouchMe Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE1A5C91ED87DEE000657C3 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		129071AE13ED577E8ADE59B6 /* Pods-TouchMe Widget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchMe Widget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouchMe Widget/Pods-TouchMe Widget.debug.xcconfig"; sourceTree = "<group>"; };
+		34D24C767EE8AFFE5B27B692 /* Pods_TouchMe_Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouchMe_Widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66369C096DE464CC0AD15BC8 /* Pods-TouchMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouchMe/Pods-TouchMe.release.xcconfig"; sourceTree = "<group>"; };
+		89DBBBF0D6664F0B99B8CFD0 /* Pods-TouchMeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchMeKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouchMeKit/Pods-TouchMeKit.debug.xcconfig"; sourceTree = "<group>"; };
+		A53141FF0820085C6D681906 /* Pods_TouchMeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouchMeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FAB2411989C077C62B27B8 /* Pods_TouchMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouchMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7D1D04A8452281F2CE4AA3 /* Pods-TouchMe Widget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchMe Widget.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouchMe Widget/Pods-TouchMe Widget.release.xcconfig"; sourceTree = "<group>"; };
+		C15C43913D3DFEAADF678B61 /* Pods-TouchMeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchMeKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouchMeKit/Pods-TouchMeKit.release.xcconfig"; sourceTree = "<group>"; };
+		EBF39D25314629D4D7D16D45 /* Pods-TouchMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouchMe/Pods-TouchMe.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B18DF671ED8663200F04F56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5924EBC4893093AC47938FE5 /* Pods_TouchMeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B7E34641ED31C1000E5AE59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B18DF721ED8663200F04F56 /* TouchMeKit.framework in Frameworks */,
+				9F77D24829FBF22A127B719A /* Pods_TouchMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE1A5C51ED87DEE000657C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE1A5D91ED87E43000657C3 /* TouchMeKit.framework in Frameworks */,
+				0BE1A5CA1ED87DEE000657C3 /* NotificationCenter.framework in Frameworks */,
+				B989861EB46F5F9BF0271CBF /* Pods_TouchMe_Widget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B18DF6C1ED8663200F04F56 /* TouchMeKit */ = {
+			isa = PBXGroup;
+			children = (
+				0B18DF6D1ED8663200F04F56 /* TouchMeKit.h */,
+				0B8D65B22208E9590031C690 /* Common */,
+				0B8D65BC2208E9590031C690 /* Models */,
+				0B18DF6E1ED8663200F04F56 /* Info.plist */,
+			);
+			path = TouchMeKit;
+			sourceTree = "<group>";
+		};
+		0B7E345E1ED31C1000E5AE59 = {
+			isa = PBXGroup;
+			children = (
+				0B7E34691ED31C1000E5AE59 /* TouchMe */,
+				0B18DF6C1ED8663200F04F56 /* TouchMeKit */,
+				0BE1A5CB1ED87DEE000657C3 /* TouchMe Widget */,
+				0B7E34681ED31C1000E5AE59 /* Products */,
+				54B44E52E35F2E0235AE6DCA /* Frameworks */,
+				D3179F838B6BC47EBCB7C1AD /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0B7E34681ED31C1000E5AE59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B7E34671ED31C1000E5AE59 /* TouchMe.app */,
+				0B18DF6B1ED8663200F04F56 /* TouchMeKit.framework */,
+				0BE1A5C81ED87DEE000657C3 /* TouchMe Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B7E34691ED31C1000E5AE59 /* TouchMe */ = {
+			isa = PBXGroup;
+			children = (
+				0BB2C7911ED89383003708CA /* TouchMe.entitlements */,
+				0B8D65D72208EB760031C690 /* Source */,
+				0B8D65C52208EA280031C690 /* Resources */,
+			);
+			path = TouchMe;
+			sourceTree = "<group>";
+		};
+		0B8D65A72208E6440031C690 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65A82208E6440031C690 /* Controllers */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		0B8D65A82208E6440031C690 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65A92208E6440031C690 /* TodayViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0B8D65AA2208E6440031C690 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65AD2208E6440031C690 /* Lists */,
+				0B8D65AB2208E6440031C690 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0B8D65AB2208E6440031C690 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65AC2208E6440031C690 /* MainInterface.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0B8D65AD2208E6440031C690 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65AE2208E6440031C690 /* Info.plist */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		0B8D65B22208E9590031C690 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65B32208E9590031C690 /* Constants */,
+				0B8D65B82208E9590031C690 /* Services */,
+				0B8D65B52208E9590031C690 /* Managers */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0B8D65B32208E9590031C690 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65B42208E9590031C690 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		0B8D65B52208E9590031C690 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65B62208E9590031C690 /* LeaderboardManager.swift */,
+				0B8D65B72208E9590031C690 /* DatabaseManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0B8D65B82208E9590031C690 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65B92208E9590031C690 /* NetworkService.swift */,
+				0B8D65BA2208E9590031C690 /* SchemeService.swift */,
+				0B8D65BB2208E9590031C690 /* SessionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0B8D65BC2208E9590031C690 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65BD2208E9590031C690 /* Gamer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0B8D65C52208EA280031C690 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65CE2208EA280031C690 /* Assets */,
+				0B8D65CA2208EA280031C690 /* Lists */,
+				0B8D65C62208EA280031C690 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0B8D65C62208EA280031C690 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65C82208EA280031C690 /* LaunchScreen.storyboard */,
+				0B8D65C72208EA280031C690 /* Entry.storyboard */,
+				0B8D65C92208EA280031C690 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0B8D65CA2208EA280031C690 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65CD2208EA280031C690 /* Info.plist */,
+				0B8D65CC2208EA280031C690 /* Titles.plist */,
+				0B8D65CB2208EA280031C690 /* GoogleService-Info.plist */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		0B8D65CE2208EA280031C690 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65CF2208EA280031C690 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		0B8D65D72208EB760031C690 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65E22208EB760031C690 /* AppDelegate.swift */,
+				0B8D65D82208EB760031C690 /* Common */,
+				0B8D65EE2208EB760031C690 /* Vendor */,
+				0B8D65EC2208EB760031C690 /* Views */,
+				0B8D65E32208EB760031C690 /* Controllers */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		0B8D65D82208EB760031C690 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65DB2208EB760031C690 /* Constants */,
+				0B8D65DD2208EB760031C690 /* Services */,
+				0B8D65D92208EB760031C690 /* Subclasses */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0B8D65D92208EB760031C690 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65DA2208EB760031C690 /* TabBarController.swift */,
+			);
+			path = Subclasses;
+			sourceTree = "<group>";
+		};
+		0B8D65DB2208EB760031C690 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65DC2208EB760031C690 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		0B8D65DD2208EB760031C690 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65DF2208EB760031C690 /* AlertService.swift */,
+				0B8D65E02208EB760031C690 /* AuthenticationService.swift */,
+				0B8D65E12208EB760031C690 /* FirebaseService.swift */,
+				0B8D65DE2208EB760031C690 /* ShortcutService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0B8D65E32208EB760031C690 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65E42208EB760031C690 /* Entry */,
+				0B8D65E82208EB760031C690 /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0B8D65E42208EB760031C690 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65E52208EB760031C690 /* ViewController.swift */,
+				0B8D65E62208EB760031C690 /* EntryViewController.swift */,
+				0B8D65E72208EB760031C690 /* AccountViewController.swift */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		0B8D65E82208EB760031C690 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65EA2208EB760031C690 /* TouchViewController.swift */,
+				0B8D65E92208EB760031C690 /* LeaderboardViewController.swift */,
+				0B8D65EB2208EB760031C690 /* ProfileViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0B8D65EC2208EB760031C690 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65ED2208EB760031C690 /* ActivityView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0B8D65EE2208EB760031C690 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D65F02208EB760031C690 /* UIKit+Hero.swift */,
+				0B8D65EF2208EB760031C690 /* KeychainPasswordItem.swift */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		0BE1A5CB1ED87DEE000657C3 /* TouchMe Widget */ = {
+			isa = PBXGroup;
+			children = (
+				0BB2C7921ED89647003708CA /* TouchMe Widget.entitlements */,
+				0B8D65A72208E6440031C690 /* Source */,
+				0B8D65AA2208E6440031C690 /* Resources */,
+			);
+			path = "TouchMe Widget";
+			sourceTree = "<group>";
+		};
+		54B44E52E35F2E0235AE6DCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BE1A5C91ED87DEE000657C3 /* NotificationCenter.framework */,
+				A6FAB2411989C077C62B27B8 /* Pods_TouchMe.framework */,
+				34D24C767EE8AFFE5B27B692 /* Pods_TouchMe_Widget.framework */,
+				A53141FF0820085C6D681906 /* Pods_TouchMeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3179F838B6BC47EBCB7C1AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBF39D25314629D4D7D16D45 /* Pods-TouchMe.debug.xcconfig */,
+				66369C096DE464CC0AD15BC8 /* Pods-TouchMe.release.xcconfig */,
+				129071AE13ED577E8ADE59B6 /* Pods-TouchMe Widget.debug.xcconfig */,
+				AA7D1D04A8452281F2CE4AA3 /* Pods-TouchMe Widget.release.xcconfig */,
+				89DBBBF0D6664F0B99B8CFD0 /* Pods-TouchMeKit.debug.xcconfig */,
+				C15C43913D3DFEAADF678B61 /* Pods-TouchMeKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B18DF681ED8663200F04F56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B18DF6F1ED8663200F04F56 /* TouchMeKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B18DF6A1ED8663200F04F56 /* TouchMeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B18DF761ED8663200F04F56 /* Build configuration list for PBXNativeTarget "TouchMeKit" */;
+			buildPhases = (
+				6968F7259BAB87E85CD4DC5E /* [CP] Check Pods Manifest.lock */,
+				0B18DF661ED8663200F04F56 /* Sources */,
+				0B18DF671ED8663200F04F56 /* Frameworks */,
+				0B18DF681ED8663200F04F56 /* Headers */,
+				0B18DF691ED8663200F04F56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchMeKit;
+			productName = TouchMeKit;
+			productReference = 0B18DF6B1ED8663200F04F56 /* TouchMeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0B7E34661ED31C1000E5AE59 /* TouchMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B7E34791ED31C1000E5AE59 /* Build configuration list for PBXNativeTarget "TouchMe" */;
+			buildPhases = (
+				B41280FF9EE19827ADED5760 /* [CP] Check Pods Manifest.lock */,
+				0B7E34631ED31C1000E5AE59 /* Sources */,
+				0B7E34641ED31C1000E5AE59 /* Frameworks */,
+				0B7E34651ED31C1000E5AE59 /* Resources */,
+				0B18DF771ED8663200F04F56 /* Embed Frameworks */,
+				0BE1A5D81ED87DEE000657C3 /* Embed App Extensions */,
+				98AB2111EB32F8ED64A072AB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B18DF711ED8663200F04F56 /* PBXTargetDependency */,
+				0BE1A5D31ED87DEE000657C3 /* PBXTargetDependency */,
+			);
+			name = TouchMe;
+			productName = TouchMe;
+			productReference = 0B7E34671ED31C1000E5AE59 /* TouchMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BE1A5C71ED87DEE000657C3 /* TouchMe Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BE1A5D51ED87DEE000657C3 /* Build configuration list for PBXNativeTarget "TouchMe Widget" */;
+			buildPhases = (
+				4EB68EAEB5882A5678ECF1EB /* [CP] Check Pods Manifest.lock */,
+				0BE1A5C41ED87DEE000657C3 /* Sources */,
+				0BE1A5C51ED87DEE000657C3 /* Frameworks */,
+				0BE1A5C61ED87DEE000657C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BB2C7901ED8899B003708CA /* PBXTargetDependency */,
+			);
+			name = "TouchMe Widget";
+			productName = "TouchMe Widget";
+			productReference = 0BE1A5C81ED87DEE000657C3 /* TouchMe Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B7E345F1ED31C1000E5AE59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = RubyGarage;
+				TargetAttributes = {
+					0B18DF6A1ED8663200F04F56 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = K2WTD52A5C;
+						ProvisioningStyle = Automatic;
+					};
+					0B7E34661ED31C1000E5AE59 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = K2WTD52A5C;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					0BE1A5C71ED87DEE000657C3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = K2WTD52A5C;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0B7E34621ED31C1000E5AE59 /* Build configuration list for PBXProject "TouchMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B7E345E1ED31C1000E5AE59;
+			productRefGroup = 0B7E34681ED31C1000E5AE59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B7E34661ED31C1000E5AE59 /* TouchMe */,
+				0B18DF6A1ED8663200F04F56 /* TouchMeKit */,
+				0BE1A5C71ED87DEE000657C3 /* TouchMe Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B18DF691ED8663200F04F56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B7E34651ED31C1000E5AE59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8D65D42208EA280031C690 /* Titles.plist in Resources */,
+				0B8D65D22208EA280031C690 /* Main.storyboard in Resources */,
+				0B8D65D32208EA280031C690 /* GoogleService-Info.plist in Resources */,
+				0B8D65D62208EA280031C690 /* Assets.xcassets in Resources */,
+				0B8D65D02208EA280031C690 /* Entry.storyboard in Resources */,
+				0B8D65D12208EA280031C690 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE1A5C61ED87DEE000657C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8D65B02208E6440031C690 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EB68EAEB5882A5678ECF1EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TouchMe Widget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6968F7259BAB87E85CD4DC5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TouchMeKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98AB2111EB32F8ED64A072AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TouchMe/Pods-TouchMe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TouchMe/Pods-TouchMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B41280FF9EE19827ADED5760 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TouchMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B18DF661ED8663200F04F56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8D65C32208E9590031C690 /* SessionService.swift in Sources */,
+				0B8D65BE2208E9590031C690 /* Constants.swift in Sources */,
+				0B8D65BF2208E9590031C690 /* LeaderboardManager.swift in Sources */,
+				0B8D65C12208E9590031C690 /* NetworkService.swift in Sources */,
+				0B8D65C22208E9590031C690 /* SchemeService.swift in Sources */,
+				0B8D65C42208E9590031C690 /* Gamer.swift in Sources */,
+				0B8D65C02208E9590031C690 /* DatabaseManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B7E34631ED31C1000E5AE59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8D65F12208EB760031C690 /* TabBarController.swift in Sources */,
+				0B8D65F22208EB760031C690 /* Constants.swift in Sources */,
+				0B8D65FC2208EB760031C690 /* TouchViewController.swift in Sources */,
+				0B8D65F42208EB760031C690 /* AlertService.swift in Sources */,
+				0B8D65F32208EB760031C690 /* ShortcutService.swift in Sources */,
+				0B8D65FF2208EB760031C690 /* KeychainPasswordItem.swift in Sources */,
+				0B8D65F72208EB760031C690 /* AppDelegate.swift in Sources */,
+				0B8D65F92208EB760031C690 /* EntryViewController.swift in Sources */,
+				0B8D65FA2208EB760031C690 /* AccountViewController.swift in Sources */,
+				0B8D65F62208EB760031C690 /* FirebaseService.swift in Sources */,
+				0B8D66002208EB760031C690 /* UIKit+Hero.swift in Sources */,
+				0B8D65FB2208EB760031C690 /* LeaderboardViewController.swift in Sources */,
+				0B8D65FD2208EB760031C690 /* ProfileViewController.swift in Sources */,
+				0B8D65FE2208EB760031C690 /* ActivityView.swift in Sources */,
+				0B8D65F82208EB760031C690 /* ViewController.swift in Sources */,
+				0B8D65F52208EB760031C690 /* AuthenticationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE1A5C41ED87DEE000657C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8D65AF2208E6440031C690 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B18DF711ED8663200F04F56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B18DF6A1ED8663200F04F56 /* TouchMeKit */;
+			targetProxy = 0B18DF701ED8663200F04F56 /* PBXContainerItemProxy */;
+		};
+		0BB2C7901ED8899B003708CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B18DF6A1ED8663200F04F56 /* TouchMeKit */;
+			targetProxy = 0BB2C78F1ED8899B003708CA /* PBXContainerItemProxy */;
+		};
+		0BE1A5D31ED87DEE000657C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BE1A5C71ED87DEE000657C3 /* TouchMe Widget */;
+			targetProxy = 0BE1A5D21ED87DEE000657C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B18DF741ED8663200F04F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89DBBBF0D6664F0B99B8CFD0 /* Pods-TouchMeKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K2WTD52A5C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TouchMeKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rubygarage.TouchMeKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B18DF751ED8663200F04F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C15C43913D3DFEAADF678B61 /* Pods-TouchMeKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K2WTD52A5C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TouchMeKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rubygarage.TouchMeKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B7E34771ED31C1000E5AE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B7E34781ED31C1000E5AE59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B7E347A1ED31C1000E5AE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF39D25314629D4D7D16D45 /* Pods-TouchMe.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TouchMe/TouchMe.entitlements;
+				DEVELOPMENT_TEAM = K2WTD52A5C;
+				INFOPLIST_FILE = TouchMe/Resources/Lists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rubygarage.TouchMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		0B7E347B1ED31C1000E5AE59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66369C096DE464CC0AD15BC8 /* Pods-TouchMe.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TouchMe/TouchMe.entitlements;
+				DEVELOPMENT_TEAM = K2WTD52A5C;
+				INFOPLIST_FILE = TouchMe/Resources/Lists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rubygarage.TouchMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		0BE1A5D61ED87DEE000657C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 129071AE13ED577E8ADE59B6 /* Pods-TouchMe Widget.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_ENTITLEMENTS = "TouchMe Widget/TouchMe Widget.entitlements";
+				DEVELOPMENT_TEAM = K2WTD52A5C;
+				INFOPLIST_FILE = "TouchMe Widget/Resources/Lists/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rubygarage.TouchMe.TouchMe-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		0BE1A5D71ED87DEE000657C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7D1D04A8452281F2CE4AA3 /* Pods-TouchMe Widget.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_ENTITLEMENTS = "TouchMe Widget/TouchMe Widget.entitlements";
+				DEVELOPMENT_TEAM = K2WTD52A5C;
+				INFOPLIST_FILE = "TouchMe Widget/Resources/Lists/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rubygarage.TouchMe.TouchMe-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B18DF761ED8663200F04F56 /* Build configuration list for PBXNativeTarget "TouchMeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B18DF741ED8663200F04F56 /* Debug */,
+				0B18DF751ED8663200F04F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B7E34621ED31C1000E5AE59 /* Build configuration list for PBXProject "TouchMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B7E34771ED31C1000E5AE59 /* Debug */,
+				0B7E34781ED31C1000E5AE59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B7E34791ED31C1000E5AE59 /* Build configuration list for PBXNativeTarget "TouchMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B7E347A1ED31C1000E5AE59 /* Debug */,
+				0B7E347B1ED31C1000E5AE59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BE1A5D51ED87DEE000657C3 /* Build configuration list for PBXNativeTarget "TouchMe Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE1A5D61ED87DEE000657C3 /* Debug */,
+				0BE1A5D71ED87DEE000657C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B7E345F1ED31C1000E5AE59 /* Project object */;
+}
