@@ -1,4 +1,4 @@
-# TouchMe #
+<h1><img src="https://github.com/radyslavkrechet/PDPTouchMe/blob/master/TouchMe/Resources/Assets/Assets.xcassets/AppIcon.appiconset/original.png" width="23" height="23">TouchMe</h1>
 
 ### Code examples for the features: ###
 
